@@ -4,7 +4,7 @@ import { defineSetupVue3 } from '@histoire/plugin-vue';
 import nuxtUi from '@nuxt/ui/vue-plugin';
 import { createRouter, createWebHistory } from 'vue-router';
 
-import App from './app.vue';
+import App from '@nuxt/ui/components/App.vue';
 
 const router = createRouter({
     history: createWebHistory(),
